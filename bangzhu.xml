@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:src="@drawable/fengmian"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <TextView
+        android:layout_width="334dp"
+        android:layout_height="91dp"
+        android:scrollHorizontally="true"
+        android:text="@string/bangzhuwendang"
+        android:id="@+id/text_bangzhu"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="334dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_bangzhu"
+        android:scrollHorizontally="true"
+        android:text="@string/bangzhuwendang2"
+        android:id="@+id/text_bangzhu2"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="334dp"
+        android:layout_height="91dp"
+        android:layout_below="@+id/text_bangzhu2"
+        android:scrollHorizontally="true"
+        android:text="@string/bangzhuwendang3"
+        android:id="@+id/text_bangzhu3"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.89" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWord"
+        android:textColorLink="@color/colorChaolianjie"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorWhite"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="fitCenter"
+    android:gravity="center"
+    android:src="@drawable/fengmian"
+    android:id="@+id/imageView2"
+    android:layout_gravity="top|center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textColor="@color/colorWord"
+        android:textColorLink="@color/colorChaolianjie"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="20sp"
+        android:layout_below="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:text="2"
+        android:textColor="@color/colorWord"
+        android:textColorLink="@color/colorChaolianjie"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:autoLink="all"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="0.92" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWord"
+        android:textColorLink="@color/colorChaolianjie"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView6"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

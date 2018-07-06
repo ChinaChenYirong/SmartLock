@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/btn_openBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_bt"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/text_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connect_state"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_msg"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/text_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="106dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fanhui"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/btn_dengji"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/dengji"
+                android:layout_gravity="center_vertical" />
+            <Button
+                android:id="@+id/btn_kaimen"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/kaimen"
+                android:layout_gravity="center_vertical" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/btn_tianjia"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/tianjia"
+                android:layout_gravity="center_vertical" />
+
+            <Button
+                android:id="@+id/btn_shanchu"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/shanchu"
+                android:layout_gravity="center_vertical" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
